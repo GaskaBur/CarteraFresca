@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blanco"
+    android:gravity="top|center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rojo"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/rojo"
+            android:drawableLeft="@drawable/ico_cuenta"
+            android:drawablePadding="2dip"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="@string/tituloCuentas"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/blanco"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dip"
+        android:background="@drawable/rectangulo"
+        android:gravity="center"
+        android:padding="5dip"
+        android:text="@string/seleccionaCuenta"
+        android:textColor="@color/negro" />
+
+    <TextView
+        android:id="@+id/txtInfo01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2dip"
+        android:gravity="center"
+        android:padding="2sp"
+        android:text="@string/info01"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="9sp"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/listadoCuentas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.50"
+        android:cacheColorHint="@color/blanco" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:background="@color/blanco"
+        android:gravity="bottom" >
+
+        <TextView
+            android:id="@+id/btnCrearCuenta"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="1dip"
+            android:layout_marginRight="1dip"
+            android:layout_weight="1"
+            android:background="@color/gris"
+            android:gravity="center"
+            android:text="@string/crearCuenta"
+            android:textColor="@color/blanco" />
+
+        <TextView
+            android:id="@+id/btnIrCategorias"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginRight="1dip"
+            android:layout_weight="1"
+            android:background="@color/gris"
+            android:gravity="center"
+            android:text="@string/verCategorias"
+            android:textColor="@color/blanco" />
+
+    </LinearLayout>
+
+</LinearLayout>

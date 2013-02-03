@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dip"
+    android:background="@drawable/rectangulotransparenteredondeado"
+    android:gravity="center_vertical|center_horizontal"
+    android:minHeight="45dip"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <ImageView
+        android:id="@+id/imagenCuentas"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/imagenes"
+        android:src="@drawable/ico_cuenta" />
+
+<TextView
+    android:id="@+id/listacuenta"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="5sp"
+    android:layout_marginRight="5sp"
+    android:drawableRight="@drawable/desplegar"
+    android:gravity="center"
+    android:text="@string/textos"
+    android:textColor="@color/grisoscuro" />
+
+</LinearLayout>

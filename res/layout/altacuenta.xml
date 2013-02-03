@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    android:orientation="vertical"
+    tools:context=".CarteraFresca$1" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rojo"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tituloAltaCuenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/rojo"
+            android:drawableLeft="@drawable/ico_cuenta"
+            android:drawablePadding="2dip"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="@string/tituloaltacuenta"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/blanco"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dip"
+        android:background="@drawable/rectangulo"
+        android:gravity="center"
+        android:padding="5dip"
+        android:text="@string/nuevacuenta"
+        android:textColor="@color/negro" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:text="@string/nombrecuenta"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/grisoscuro"
+        android:textSize="10dip" />
+
+    <EditText
+        android:id="@+id/txtNombreCtaAltas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dip"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:inputType="text"
+        android:maxLength="25" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dip"
+        android:padding="3dip"
+        android:text="@string/descripcionCta"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/grisoscuro"
+        android:textSize="10dip" />
+
+    <EditText
+        android:id="@+id/txtDescripcionCuentaAltas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dip"
+        android:ems="10"
+        android:inputType="text"
+        android:maxLength="50" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dip"
+        android:background="@drawable/rectangulo"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:padding="3dip"
+            android:text="@string/imagen_"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/grisoscuro"
+            android:textSize="10dip" /><ImageView
+            android:id="@+id/imgCuentaNueva"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:background="@drawable/rectangulotransparente"
+            android:contentDescription="@string/imagenes"
+            android:maxWidth="30dp"
+            android:padding="3dip"
+            android:scaleType="centerInside"
+            android:src="@drawable/ico_cuenta" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/info02"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="9sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dip" >
+
+            <Button
+                android:id="@+id/btnImgDefinidas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/imagenesdefinicas"
+                android:layout_weight="1"
+                android:textSize="10dip" />
+
+            <Button
+                android:id="@+id/btnImagenPersonal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/imagenpersonal"
+                android:textSize="10dip" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/blanco"
+        android:baselineAligned="true"
+        android:gravity="bottom" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.97"
+            android:background="@color/blanco"
+            android:gravity="bottom" >
+
+            <TextView
+                android:id="@+id/btnAltaCuenta"
+                android:layout_width="fill_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="1dip"
+                android:layout_marginRight="1dip"
+                android:background="@color/gris"
+                android:gravity="center"
+                android:text="@string/crearCuenta"
+                android:textColor="@color/blanco" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

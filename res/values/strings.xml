@@ -1,0 +1,64 @@
+<resources>
+
+    <string name="app_name">Cartera Fresca</string>
+    <string name="tituloCuentas">Tus cuentas</string>
+    <string name="seleccionaCuenta">Selecciona la cuenta con la que quieres operar.</string>
+    <string name="imagenes">imagenes</string>
+    <string name="textos">textos</string>
+    <string name="button">Button</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="botoncuentas">Ver Cuentas</string>
+    <string name="crearCuenta">Crear Cuenta</string>
+    <string name="tituloaltacuenta">Nueva Cuenta</string>
+    <string name="autocompletetextview">AutoCompleteTextView</string>
+    <string name="nombrecuenta">Nombre de la cuenta (Max 25)*:</string>
+    <string name="cambiarimagen">Cambiar Imagen</string>   
+    
+    <color name="negro">#000000</color>
+    <color name="gris">#999999</color>
+    <color name="rojo">#FF0000</color>
+    <color name="blanco">#ffffff</color>
+    <color name="grisoscuro">#333333</color>
+    <string name="nuevacuenta">Introduce los datos de la nueva cuenta</string>
+    <string name="descripcionCta">Descripción de la cuenta (Max 50):</string>
+    <string name="imagen_">Imagen:</string>
+    <string name="imagenesdefinicas">Imagenes definidas</string>
+    <string name="imagenpersonal">Imagen personal</string>
+    <string name="btnaltacuenta">Crear Cuenta</string>
+    <string name="info01">Realiza una pulsación larga sobre el nombre de la cuenta para editar o borrar.</string>
+    <string name="info02">Para cambiar la imagen pulsa en los botones de abajo y elije entre una imagen definida o pon una de tu galería (Max. 500 bytes).</string>
+    <string name="info03">¿Qué hacer?</string>
+    <string name="tituloCategorias">Tus Categorías</string>
+    <string name="info20">Estas son las categorías que tienes disponibles para operar.</string>
+    <string name="text21">Realiza una pulsación larga sobre el nombre de la categoría para editar o borrar</string>
+    <string name="textBotonCrearCategoria">Crear Categoría</string>
+    <string name="tituloAltaCategorias">Nueva Categoría</string>
+    <string name="info21">Introduce los datos de la nueva categoría</string>
+    <string name="info22">Nombre de la nueva categoría (Max 20)</string>
+    <string name="btnAltaCategoria">Crear Categoría</string>
+    <string name="tituloHomeCuenta">Titulo Cuenta</string>
+    <string name="saldo">Saldo Actual</string>
+    <string name="txtbotonnuevomovimiento">Nuevo Movimiento</string>
+    <string name="info23">Introduce los datos del nuevo Movimiento</string>
+    <string name="info24">Importe *</string>
+    <string name="ingreso">+ Ingreso</string>
+    <color name="verde">#16BE16</color>
+    <string name="info25">- Reintegro</string>
+    <string name="info26">Descripción (max 20)</string>
+    <string name="info27">Categoría</string>
+    <string name="info28">Crear Movimiento</string>
+    <string name="txtboton">-</string>
+    <string name="info29">vacio</string>
+    <string name="verCategorias">Ver Categorias</string>
+    <string name="euro">€</string>
+    <string name="info30">Fecha de cargo - El movimiento no será cargado hasta la fecha especificada.</string>
+    <string name="info31">Ver movimientos pendientes de cargar</string>
+    <string name="movPendientes">Movimientos Pendientes</string>
+    <string name="volverCuentas">Volver a Cuentas</string>
+    <string name="info32">Volver a movimientos cargados</string>
+    <string name="ultimos25">25 úlitmos movimientos</string>
+    <string name="info33">Preparando datos ...</string>
+    
+    
+
+</resources>

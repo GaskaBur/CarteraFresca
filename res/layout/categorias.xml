@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blanco"
+    android:gravity="top|center"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rojo"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/txtTituloCategorias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/rojo"
+            android:drawableLeft="@drawable/ico_anotacion"
+            android:drawablePadding="2dip"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="@string/tituloCategorias"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/blanco"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+<TextView
+    android:id="@+id/txtInfo20"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="2dip"
+    android:background="@drawable/rectangulo"
+    android:gravity="center"
+    android:padding="5dip"
+    android:text="@string/info20"
+    android:textColor="@color/negro" />
+
+<TextView
+    android:id="@+id/txtInfo21"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="2dip"
+    android:gravity="center"
+    android:padding="2sp"
+    android:text="@string/text21"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textSize="9sp"
+    android:visibility="visible" />
+
+<ListView
+    android:id="@+id/listadoCategorias"
+    android:layout_width="match_parent"
+    android:layout_height="263dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:cacheColorHint="@color/blanco" >
+
+</ListView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/blanco"
+        android:gravity="bottom" >
+
+        <TextView
+            android:id="@+id/btnCrearCategoria"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginLeft="1dip"
+            android:layout_marginRight="1dip"
+            android:layout_weight="1"
+            android:background="@color/gris"
+            android:gravity="center"
+            android:text="@string/textBotonCrearCategoria"
+            android:textColor="@color/blanco" />
+
+        <TextView
+            android:id="@+id/btnVolver"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="1dip"
+            android:layout_weight="1"
+            android:background="@color/gris"
+            android:gravity="center"
+            android:text="@string/volverCuentas"
+            android:textColor="@color/blanco" />
+
+    </LinearLayout>
+
+</LinearLayout>

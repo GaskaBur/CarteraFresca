@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@color/blanco"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rojo" >
+
+        <ImageView
+            android:id="@+id/imageCuenta"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="5dip"
+            android:layout_marginBottom="2dip"
+            android:contentDescription="@string/imagenes"
+            android:maxHeight="30dp"
+            android:maxWidth="30dp"
+            android:src="@drawable/categoria_coche" />
+
+        <TextView
+            android:id="@+id/lblTituloHomeCuenta"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/rojo"
+            android:gravity="left|center"
+            android:keepScreenOn="true"
+            android:padding="5dip"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:scrollHorizontally="false"
+            android:scrollbarAlwaysDrawHorizontalTrack="false"
+            android:scrollbarAlwaysDrawVerticalTrack="false"
+            android:scrollbarDefaultDelayBeforeFade="100"
+            android:scrollbarFadeDuration="100"
+            android:scrollbarStyle="outsideInset"
+            android:soundEffectsEnabled="false"
+            android:text="@string/tituloHomeCuenta"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/blanco"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:background="@color/blanco" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.38"
+            android:background="@drawable/rectangulotransparenteredondeado"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/saldo"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/grisoscuro" />
+
+            <TextView
+                android:id="@+id/txtSaldoActual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/saldo"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/rojo" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnNuevoMovimiento"
+            android:layout_width="106dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dip"
+            android:text="@string/txtbotonnuevomovimiento" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blanco"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="12dip"
+            android:text="@string/ultimos25"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="10dip" />
+
+        <ListView
+            android:id="@+id/lstMov"
+            android:layout_width="fill_parent"
+            android:layout_height="306dp"
+            android:layout_margin="5dip"
+            android:background="@color/blanco"
+            android:cacheColorHint="@color/blanco"
+            android:padding="5dip" >
+
+        </ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/blanco"
+        android:gravity="bottom" >
+
+        <TextView
+            android:id="@+id/btnMovimientosPendientes"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="1dip"
+            android:layout_marginRight="1dip"
+            android:layout_weight="0.97"
+            android:background="@color/gris"
+            android:gravity="center"
+            android:text="@string/info31"
+            android:textColor="@color/blanco" />
+
+    </LinearLayout>
+
+</LinearLayout>
